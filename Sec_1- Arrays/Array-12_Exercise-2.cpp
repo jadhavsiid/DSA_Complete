@@ -26,8 +26,9 @@ int largestSubarraySum(vector<int> arr)
 
 int main()
 {
+    vector<int> arr = {-3, -2, -1, -5, -4};
     // vector<int> arr = {1, -2, 3, 4, 4, -2};
-    vector<int> arr = {5, 0, -1, 0, 1, 2, -1};
+    // vector<int> arr = {5, 0, -1, 0, 1, 2, -1};
 
     cout << "The largest Subarray Sum is: " << largestSubarraySum(arr);
 }
